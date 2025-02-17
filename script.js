@@ -87,6 +87,12 @@ function swiper() {
     spaceBetween: 30,
     grabCursor: true,
     breakpoints: {
+      1400: {
+        slidesPerView: 4
+      },
+      601: {
+        slidesPerView: 4
+      },
       600: {
         slidesPerView: 2
       },
